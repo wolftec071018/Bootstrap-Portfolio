@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="main.js"></script>
+</head>
+<h1>Andrew Dao</h1>
+<body>
+        <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Porfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <!--- contact form-->
+              <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col-md-4 mb-3">
+                        <label for="validationTooltip01">First name</label>
+                        <input type="text" class="form-control" id="validationTooltip01" placeholder="First name"  required>
+                        <div class="valid-tooltip">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationTooltip02">Last name</label>
+                        <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" required>
+                        <div class="valid-tooltip">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationTooltipUsername">Username</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                          </div>
+                          <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                          <div class="invalid-tooltip">
+                            Please choose a unique and valid username.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationTooltip03">Question</label>
+                        <input type="text" class="form-control" id="validationTooltip03" placeholder="Question?" required>
+                        <div class="invalid-tooltip">
+                          Please provide a valid city.
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                  </form>
+                  
+            
+</body>
+</html>
